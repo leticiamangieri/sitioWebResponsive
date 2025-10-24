@@ -1,0 +1,61 @@
+.navbar{
+     background-color: rgb(99, 112, 121);
+}
+
+li{
+margin-right: 110px;
+}
+
+.navbar-brand{
+margin-right: 80px;
+}
+.navbar-brand,#dolor{
+    color: white;
+    
+}
+
+.navbar-toggler-icon{
+    color:white;
+}
+
+
+.barra{
+    color: rgb(185, 198, 207) !important;
+}
+
+header{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#carrusel{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorTexto{
+    margin-top: 40px;
+}
+
+.list-group-item{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+  .columnas2-md {
+    column-count: 2;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .columnas3-lg {
+    column-count: 3;
+  }
+}
